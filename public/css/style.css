@@ -196,7 +196,7 @@ body.dark-mode .chat-form-container {
     display: flex;
 }
 
-.chat-form-container input[type='text'] {
+.chat-form-container input[type='text'] ,.chat-form-container  input[type='password'] {
     font-size: 16px;
     padding: 5px;
     height: 40px;
@@ -206,7 +206,8 @@ body.dark-mode .chat-form-container {
     border-radius: 4px;
 }
 
-body.dark-mode .chat-form-container input[type='text'] {
+body.dark-mode .chat-form-container input[type='text'],
+body.dark-mode .chat-form-container input[type='password'] {
     background-color: var(--dark-bg-secondary);
     color: var(--dark-text-primary);
     border-color: var(--dark-text-secondary);
@@ -256,6 +257,7 @@ body.dark-mode .join-main {
 }
 
 .join-main input[type='text'],
+.join-main input[type='password'],
 .join-main select {
     font-size: 16px;
     padding: 5px;
@@ -267,6 +269,7 @@ body.dark-mode .join-main {
 }
 
 body.dark-mode .join-main input[type='text'],
+body.dark-mode .join-main input[type='password'],
 body.dark-mode .join-main select {
     background-color: var(--dark-bg-secondary);
     color: var(--dark-text-primary);
