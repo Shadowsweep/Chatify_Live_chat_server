@@ -23,7 +23,19 @@ socket.emit('joinRoom',{ username ,room })
 socket.on('usernameTaken', (data) => {
   // Alert the user and redirect back to index page
   alert(data.message);
-  window.location = 'index.html';
+  window.location = 'kuvaka.html';
+});
+
+
+// Handle join errors
+socket.on('joinError', (data) => {
+  // Show error message
+  alert(data.message);
+  
+  // Redirect if specified
+  if (data.redirect) {
+      window.location = 'index.html';
+  }
 });
 
 
