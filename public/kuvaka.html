@@ -1,105 +1,4 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kuvaka Tech - Chat Entry</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: 'Poppins', sans-serif;
-            background-color: #121212;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            overflow: hidden;
-            color: white;
-        }
-        .container {
-            text-align: center;
-            background-color: #1E1E1E;
-            padding: 50px;
-            border-radius: 20px;
-            box-shadow: 0 15px 35px rgba(0,0,0,0.5);
-        }
-        .logo {
-            margin-bottom: 30px;
-        }
-        .logo img {
-            max-width: 200px;
-            border-radius: 10px;
-        }
-        .btn {
-            display: inline-block;
-            width: 250px;
-            padding: 15px;
-            margin: 15px;
-            background-color: #A246FF;
-            color: black;
-            text-decoration: none;
-            border-radius: 15px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            transition: all 0.3s ease;
-            transform: perspective(500px) rotateX(10deg);
-            box-shadow: 0 10px 20px rgba(162, 70, 255, 0.4);
-        }
-        .btn:hover {
-            transform: perspective(500px) rotateX(-5deg) scale(1.05);
-            box-shadow: 0 15px 25px rgba(162, 70, 255, 0.6);
-        }
-        .particle {
-            position: absolute;
-            background-color: rgba(162, 70, 255, 0.3);
-            pointer-events: none;
-            border-radius: 50%;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="logo">
-            <img src="techunsatisfiedlogo.png" alt="Kuvaka Tech Logo">
-        </div>
-        <h1>Kuvaka Tech Chat</h1>
-        <div class="button-group">
-            <a href="index.html" target="_blank" class="btn">USER 1</a>
-            <a href="index.html" target="_blank" class="btn">USER 2</a>
-        </div>
-    </div>
 
-    <script>
-        // Particle Animation Background Effect
-        function createParticles() {
-            const body = document.body;
-            for(let i = 0; i < 50; i++) {
-                const particle = document.createElement('div');
-                particle.classList.add('particle');
-                
-                const size = Math.random() * 5 + 2;
-                particle.style.width = `${size}px`;
-                particle.style.height = `${size}px`;
-                
-                particle.style.left = `${Math.random() * window.innerWidth}px`;
-                particle.style.top = `${Math.random() * window.innerHeight}px`;
-                
-                particle.style.animationDuration = `${Math.random() * 5 + 3}s`;
-                particle.style.animationDelay = `${Math.random() * 2}s`;
-                
-                body.appendChild(particle);
-            }
-        }
-        createParticles();
-    </script>
-</body>
-</html> -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -122,23 +21,26 @@
 
 			<header class="join-header">
                 <div class="logo-container">
+					<!-- Here comes our logo  -->
                     <img src="../techunsatisfiedlogo.png" alt="Tech Unsatisfied Logo">
                 </div>
 			</header>
 			<main class="join-main">
 				<form action="chat.html">
 					<div class="form-control">
-						<label  for="username">Username:</label>
+						<!-- Pass Unique Username here and it can't be left empty  -->
+						<label  for="username">Username :</label>
 						<input
 							type="text"
 							name="username"
 							id="username"
-							placeholder="Enter username..."
+							placeholder="Enter unique username..."
 							required
 						/>
 					</div>
 					<div class="form-control">
-						<label for="room">Rooms Available: </label>
+						<!-- Here  a list is given to choose from which of the room user wants to join inside   -->
+						<label for="room">Rooms Available : </label>
 						<select name="room" id="room">
 							<option value="kuvaka Tech">Kuvaka Tech</option>
 							<option value="flutter">Flutter Developer</option>
