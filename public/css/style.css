@@ -322,3 +322,34 @@ body {
         max-width: 1100px;
     }
 }
+
+:root {
+    --base-font-size-mobile: 14px;
+    --base-font-size-desktop: 16px;
+}
+
+body {
+    font-size: var(--base-font-size-mobile);
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: var(--base-font-size-desktop);
+    }
+}
+
+/* Responsive Spacing */
+body {
+    margin: 10px; /* Reduced for mobile */
+}
+
+@media (min-width: 768px) {
+    body {
+        margin: 20px; /* Original desktop spacing */
+    }
+}
+.chat-messages, .chat-sidebar {
+    max-height: 50vh; /* Percentage-based height */
+    overflow-y: auto; /* Smoother scrolling */
+    -webkit-overflow-scrolling: touch; /* Momentum scrolling on iOS */
+}
