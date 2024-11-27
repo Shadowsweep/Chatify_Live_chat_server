@@ -19,6 +19,14 @@ const {username,room} = Qs.parse(location.search, {
 // Join chatroom 
 socket.emit('joinRoom',{ username ,room })
 
+// Handle username taken scenario
+socket.on('usernameTaken', (data) => {
+  // Alert the user and redirect back to index page
+  alert(data.message);
+  window.location = 'index.html';
+});
+
+
 // Get room and Users when we are inside our chatroom 
 socket.on('roomUsers',({ room , users}) => {
   outputRoomName(room);
