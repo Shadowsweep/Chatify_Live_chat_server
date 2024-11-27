@@ -4,7 +4,7 @@ const chatMessages = document.querySelector('.chat-messages')
 const roomName = document.getElementById('room-name');
 const userList = document.getElementById('users');
 
-const messageTone = new Audio('message-tone.mp3')
+const messageTone = new Audio('js/message-tone.mp3')
 
 // We will get username and room from  URL
 const {username,room} = Qs.parse(location.search, {
@@ -30,9 +30,9 @@ socket.on('roomUsers',({ room , users}) => {
 
 // What we sent on server will be displayed here 
 socket.on('message' ,message =>{
-    // console.log(message);
+    console.log("This is message time ",message);
     outputMessage(message);
-     messageTone.play()
+     messageTone.play();
     // tO add scroll to Bottom 
     chatMessages.scrollTop = chatMessages.scrollHeight;
 })
@@ -59,10 +59,11 @@ function outputMessage(message){
 
     const div = document.createElement('div');
     div.classList.add('message');
-    div.innerHTML=`  <p class="meta">${message.username}<span>${message.time}</span></p>
-                    <p class="text">
+    div.innerHTML=`  <p class="text">
                       ${message.text}
-                    </p>`;
+                    </p> 
+                   <p class="meta">${message.username} &nbsp; <span>${message.time}</span></p>
+                   `;
     document.querySelector('.chat-messages').appendChild(div); 
 }
 
