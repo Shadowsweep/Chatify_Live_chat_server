@@ -27,18 +27,6 @@ socket.on('usernameTaken', (data) => {
 });
 
 
-// Handle join errors
-socket.on('joinError', (data) => {
-  // Show error message
-  alert(data.message);
-  
-  // Redirect if specified
-  if (data.redirect) {
-      window.location = 'index.html';
-  }
-});
-
-
 // Get room and Users when we are inside our chatroom 
 socket.on('roomUsers',({ room , users}) => {
   outputRoomName(room);
