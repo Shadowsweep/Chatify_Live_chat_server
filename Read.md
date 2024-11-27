@@ -1,9 +1,3 @@
-# Commands :
-npm init
-npm install express socket.io moment
-# -D for dev dependency
-npm install -D nodemon
-
 # Chatify
 
 **Chatify** is a modern, real-time chat application built using **Node.js**, **Express**, **Socket.io**
@@ -14,7 +8,7 @@ npm install -D nodemon
 ### Frontend
 - **HTML5 & CSS3**: Modern, responsive, and elegant UI design.
 - **JavaScript**: Interactive client-side logic.
-- **FontAwesome**: Iconography for a sleek interface.
+
 
 ### Backend
 - **Node.js**: Event-driven, asynchronous runtime.
