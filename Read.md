@@ -81,16 +81,20 @@ Chatify/
 
 **Starting From** : First go to the site and select the user one by one 
 
+**select TEST USER1**:  will be forwarded to Login page
+
 ![image](https://github.com/user-attachments/assets/89848ef9-d954-4205-89ec-91b8b624b09b)
 
+ 
+**HERE**
+**USERNAME**: Any Unique username
+**PASSWORD**: admin
 
-**select Test USER1 ,  will be forwarded to Login page**
-
-**In which add Unique username and Password:admin**
 ![image](https://github.com/user-attachments/assets/6badfcf7-cbcd-4f79-ae4e-f9378b66de14)
 
 
-**In this you have to select Unique Usernames to enter the chat if you use same then will be redirected  back to login**
+**NOTE**: In this you have to select Unique Usernames to enter the chat if you use same then will be redirected  back to login.
+
 ![image](https://github.com/user-attachments/assets/e111dbd9-e6b1-4eec-9f13-10bd833a35a0)
 
 
@@ -99,7 +103,7 @@ Chatify/
 ![image](https://github.com/user-attachments/assets/71b212fe-b685-4c11-8126-13c6075cded7)
 
 
-**Light Mode and Dark Mode are added For the comfort of the user as comfortable .The icon is available at the top right corner **
+**Light Mode and Dark Mode are added For the comfort of the user as comfortable .The icon is available at the top right corner**
 
 ![image](https://github.com/user-attachments/assets/2d70d7c0-faa8-4f93-a380-a122a51b718a)
 
