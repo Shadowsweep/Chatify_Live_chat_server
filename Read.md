@@ -2,7 +2,11 @@
 
 **Chatify** is a modern, real-time chat application built using **Node.js**, **Express**, **Socket.io**
 
-### live Demo link - https://drive.google.com/file/d/1EbgyH-ZkJZ1x0u_mtAviB5UQMIlcTWer/view?usp=sharing 
+## 🌐 Live Demo
+
+**Web Application:** [Chatify Live Demo](https://chatify-live-chat-server-kuvaka-tech.onrender.com/)
+**Video Demonstration:** [Demo Video](https://drive.google.com/file/d/1EbgyH-ZkJZ1x0u_mtAviB5UQMIlcTWer/view?usp=sharing )
+
 
 ## 🛠️ Technologies Used
 
@@ -86,7 +90,7 @@ Chatify/
 ![image](https://github.com/user-attachments/assets/89848ef9-d954-4205-89ec-91b8b624b09b)
 
  
-**HERE**
+
 **USERNAME**: Any Unique username
 **PASSWORD**: admin
 
