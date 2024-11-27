@@ -123,7 +123,8 @@ Chatify/
 
 ## 📸 Screenshots
 
-**For Mobile**
+
+
 ![image](https://github.com/user-attachments/assets/b926d9d4-e80d-4eee-a7d1-b33abd6ab5f9)
 
 
