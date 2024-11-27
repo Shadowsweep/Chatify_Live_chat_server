@@ -2,6 +2,7 @@
 
 **Chatify** is a modern, real-time chat application built using **Node.js**, **Express**, **Socket.io**
 
+### live Demo link - https://drive.google.com/file/d/1EbgyH-ZkJZ1x0u_mtAviB5UQMIlcTWer/view?usp=sharing 
 
 ## 🛠️ Technologies Used
 
@@ -74,7 +75,7 @@ Chatify/
 └── README.md                 # Documentation
 ```
 
-### live Demo link - https://drive.google.com/file/d/1EbgyH-ZkJZ1x0u_mtAviB5UQMIlcTWer/view?usp=sharing 
+
 
 ## How Does the Project Work ??
 
@@ -83,11 +84,25 @@ Chatify/
 ![image](https://github.com/user-attachments/assets/89848ef9-d954-4205-89ec-91b8b624b09b)
 
 
-**In this you have to select Unique Usernames to enter the chat if you use same then will be forwarded back**
+**select Test USER1 ,  will be forwarded to Login page**
+
+**In which add Unique username and Password:admin**
+![image](https://github.com/user-attachments/assets/6badfcf7-cbcd-4f79-ae4e-f9378b66de14)
+
+
+**In this you have to select Unique Usernames to enter the chat if you use same then will be redirected  back to login**
+![image](https://github.com/user-attachments/assets/e111dbd9-e6b1-4eec-9f13-10bd833a35a0)
+
 
 **After that you have acess to your room chat and you can talk effieciently**
 
-**Light Mode and Dark Mode are added For the comfort of the user as comfortable**
+![image](https://github.com/user-attachments/assets/71b212fe-b685-4c11-8126-13c6075cded7)
+
+
+**Light Mode and Dark Mode are added For the comfort of the user as comfortable .The icon is available at the top right corner **
+
+![image](https://github.com/user-attachments/assets/2d70d7c0-faa8-4f93-a380-a122a51b718a)
+
 
 ---
 ## 🌟 Features
@@ -98,30 +113,28 @@ Chatify/
 
 ## 📸 Screenshots
 
-### Login Page
-![Login Page](public/images/login-page.png)
+**For Mobile**
+![image](https://github.com/user-attachments/assets/b926d9d4-e80d-4eee-a7d1-b33abd6ab5f9)
 
-### Chat Interface
-![Chat Interface](public/images/chat-interface.png)
 
 ---
 
 ## 🌐 Live Demo
 
-Link - 
+Link - https://chatify-live-chat-server-kuvaka-tech.onrender.com/
 
 ---
 
 
 ## 📜 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License
 
 ---
 
-## 🙌 Acknowledgments
+
 
 Special thanks to:
-# Kuvaka Tech
+## Kuvaka Tech
 
 **Connect, Collaborate, and Chatify!**
