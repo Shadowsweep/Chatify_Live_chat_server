@@ -93,6 +93,7 @@ Chatify/
  
 
 **USERNAME**: Any Unique username
+
 **PASSWORD**: admin
 
 ![image](https://github.com/user-attachments/assets/6badfcf7-cbcd-4f79-ae4e-f9378b66de14)
