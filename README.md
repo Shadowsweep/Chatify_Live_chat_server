@@ -23,8 +23,16 @@
 - **Moment.js**: Formatting timestamps.
 
 ---
+## Core Components
+1. **Server Logic** (`server.js`):
+   - Manages socket connections
+   - Handles room and user management
 
-## 🚀 Requirements
+2. **Client Interaction** (`main.js`):
+   - Establishes socket connection
+   - Updates chat interface dynamically
+
+
 
 ### system configuration
 
@@ -63,7 +71,7 @@
 Chatify/
 ├── public/
 │   ├── css/
-│   │   └── style.css         # Styles for the frontend               # Logo and other assets
+│   │   └── style.css         # Styles for the frontend             
 │   ├── js/
 │   │   ├── main.js
 │   │   ├── message-tone.mp3           # Client-side logic
