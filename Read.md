@@ -8,6 +8,39 @@
 
 **Video Demonstration:** [Demo Video](https://drive.google.com/file/d/1EbgyH-ZkJZ1x0u_mtAviB5UQMIlcTWer/view?usp=sharing )
 
+# Chatify - Real-Time Chat Application
+
+## Overview
+Chatify is a secure, real-time chat application built with Node.js and Socket.IO, enabling users to communicate in password-protected rooms.
+
+## Key Features
+- Room-based messaging
+- Admin password protection
+- Unique username enforcement
+- Real-time user and message updates
+
+## Technical Architecture
+- **Server**: Express and Socket.IO handle connection, authentication, and message routing
+- **Client**: Manages user interactions and real-time communication
+- **Core Functions**:
+  * Validate room access
+  * Prevent username duplicates
+  * Broadcast system and user messages
+
+## Core Components
+1. **Server Logic** (`server.js`):
+   - Manages socket connections
+   - Handles room and user management
+
+2. **Client Interaction** (`main.js`):
+   - Establishes socket connection
+   - Updates chat interface dynamically
+
+## Security
+- Password-protected rooms
+- Username uniqueness validation
+- Secure real-time communication
+
 
 ## 🛠️ Technologies Used
 
